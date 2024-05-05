@@ -40,7 +40,9 @@
                 class="dropdown"
               >
                 <router-link :to="link.to">
-                  <li class="dropdown__link">{{ link.linkName }}</li>
+                  <li @click="openSidebar" class="dropdown__link">
+                    {{ link.linkName }}
+                  </li>
                 </router-link>
               </ul>
             </div>
