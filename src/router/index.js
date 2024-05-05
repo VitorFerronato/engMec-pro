@@ -9,8 +9,7 @@ import signIn from '../views/login/sign-in.vue'
 import homeMain from '../views/main/home-main.vue'
 import home from '../views/main/home-dashboard.vue'
 
-//ADMIN
-import adminMain from '../views/main/admin/admin-main.vue'
+
 
 //USER
 import userMain from '../views/main/user/user-main.vue'
@@ -69,11 +68,6 @@ const routes = [
         ]
       }
     ]
-  },
-  {
-    path: '/admin',
-    name: 'admin-main',
-    component: adminMain,
   },
   {
     path: '/user',
